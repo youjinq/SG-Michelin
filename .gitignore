@@ -1,0 +1,22 @@
+# 电脑和开发工具产生的文件
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/
+.cache/
+.openai/
+.codex/
+*.log
+*.zip
+*.tar.gz
+
+# 账号密钥与个人资料
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+private-data/
+**/sg-michelin-backup-*.json
+
+# docs/public-data.json 是手机网站的名单，需要保留并上传。
